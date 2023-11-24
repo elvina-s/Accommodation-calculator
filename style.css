@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+}
+
+.page {
+    background-image: url("https://images.unsplash.com/photo-1596120236172-231999844ade?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.headingPart {
+    background-color: rgb(246, 246, 246, 0.7);
+    border-radius: 20px;
+    padding: 50px;
+    top: 100px;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sub-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.bill-title, .people-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#firstInput, #secondInput {
+    margin-bottom: 30px;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.firstPart {
+    background-color: rgb(246, 246, 246, 0.7);
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondPart {
+    background-color: rgb(246, 246, 246, 0.7);
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.billBox {
+    margin-bottom: 20px;
+    height: 25px;
+}
+
+.personBox {
+    height: 25px;
+}
+
+.box-info {
+    display: flex;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+#button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: #FFE569;
+    border: solid black 1px;
+    border-radius: 10px;
+    padding: 10px 30px;
+
+}
+
+#billCost, #billPerPerson {
+    margin-right: 5px;
+}
+
+@media all and (max-width:1200px) {
+    .container {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+}
+
+@media all and (max-width:1000px) {
+    .container {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+}
+
+@media all and (max-width:800px) {
+    .container {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    .heading {
+        font-size: 28px;
+
+    }
+
+    .sub-heading {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width:700px) {
+    .container {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .heading {
+        font-size: 28px;
+
+    }
+
+    .sub-heading {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width:600px) {
+    .container {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .heading {
+        font-size: 26px;
+
+    }
+
+    .sub-heading {
+        font-size: 16px;
+    }
+
+    .bill-title, .people-title, span, p, #button {
+        font-size: 18px;
+    }
+
+    input{
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media all and (max-width:500px) {
+    .heading {
+        font-size: 24px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .container {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .heading {
+        font-size: 22px;
+
+    }
+
+    .sub-heading {
+        font-size: 16px;
+    }
+
+    .bill-title, .people-title, span, p, #button {
+        font-size: 18px;
+    }
+
+    input{
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .box-info {
+        display: flex;
+    }
+}
+
+
+@media all and (max-width:400px) {
+    .container {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .heading {
+        font-size: 20px;
+
+    }
+
+    .sub-heading {
+        font-size: 14px;
+    }
+
+    .bill-title, .people-title, span, p, #button {
+        font-size: 16px;
+    }
+
+    input{
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .box-info {
+        display: flex;
+    }
+}
+
+

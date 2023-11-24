@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <div class="container">
+            <div class="headingPart">
+                <div class="heading">How much does a vacation accommodation actually cost?</div>
+                <div class="sub-heading">* This calculator does not apply for a solo-travel</div>
+            </div>
+
+            <br>
+
+            <div class="firstPart">
+                <div class="billPart">
+                    <div class="bill-title">How much does the accommodation cost?</div>
+                    <div class="bill-input">
+                        <input id="firstInput" type="text" placeholder="$..">
+                    </div>
+                </div>
+                
+                <div class="peoplePart">
+                    <div class="people-title">How many people are in the accommodation?</div>
+                    <div class="people-input">
+                        <input id="secondInput" type="text"placeholder="Amount of people..">
+                    </div>
+                </div>
+                <div class="buttonPart">
+                    <button id="button">Calculate</button>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="secondPart">
+                <div class="billBox">
+                    <div class="box-info"><span>The accommodation costs $ </span> <span id="billCost"> </span></div>
+                </div>
+                <div class="personBox">
+                    <div class="box-info" id="last"><span>The accommodation costs $ </span> <span id="billPerPerson"> </span><span> per person</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
